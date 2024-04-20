@@ -1,4 +1,7 @@
 # App certificados Python
+
+<i class="devicon-python-plain colored"></i>
+          
 Aplicação para criar documentos a partir de um template e um arquivo excel.
 
 Para instalar as dependências utilize:
