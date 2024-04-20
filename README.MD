@@ -3,9 +3,12 @@
           
 Aplicação para criar documentos a partir de um template e um arquivo excel.
 
-Para instalar as dependências utilize:
+1. Para instalar as dependências utilize:
 
 ```pip install -r requirements.txt```
+
+2. Crie um arquivo excel com os dados que você irá substituir
+3. Crie um template no formato word que servirá de base para os certificados gerados. Os campos que receberão os dados dinamicamente deverão ser marcados com {{}}.
 
 Se você estiver utilizando o VSCode, tecle shift+ctrl+P e escolha Criar Ambiente Virtual. 
 
