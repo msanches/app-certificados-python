@@ -10,8 +10,8 @@ wb = openpyxl.load_workbook('dados.xlsx')
 planilha = wb['Planilha1']  # nome da planilha onde estão os dados
 
 #hoje = datetime.now().strftime('%d/%m/%Y')
-# Iterar sobre as linhas da planilha
-# Começa da segunda linha para evitar o cabeçalho
+
+# Itera sobre as linhas da planilha, começando da segunda linha para evitar o cabeçalho
 for linha in planilha.iter_rows(min_row=2, values_only=True):
     dados = {
         'TITULO': linha[0],
