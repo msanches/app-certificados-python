@@ -1,7 +1,7 @@
 # App certificados Python
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"  width= 80px/>
           
-Aplicativo para criar documentos a partir de um template e um arquivo excel.
+### Aplicativo para criar certificados a partir de um template e um arquivo excel.
 
 1. Para instalar as dependências utilize:
 
