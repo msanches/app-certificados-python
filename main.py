@@ -25,7 +25,7 @@ for col in planilha.iter_rows(min_row=2, values_only=True):
     modelo.render(dados)
 
     # Salva o documento preenchido
-    arquivo = 'arquivos/' + linha[1] + '_' + linha[2] + '.docx'
+    arquivo = 'arquivos/' + col[1] + '_' + col[2] + '.docx'
     
     modelo.save(arquivo)
     print('.', end='')
