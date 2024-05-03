@@ -7,7 +7,7 @@
 
           pip install -r requirements.txt
 
-Se você estiver utilizando o VSCode, tecle shift+ctrl+P e escolha Criar Ambiente Virtual. 
+Se você estiver utilizando o VSCode, tecle shift+ctrl+P (windows) e escolha Criar Ambiente Virtual. 
 O próprio VSCode reconhece o arquivo requirements.txt e pergunta se você quer instalar as dependências.    
 
 2. Crie um arquivo excel com os dados que você irá substituir
